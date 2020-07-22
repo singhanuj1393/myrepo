@@ -22,7 +22,16 @@
 11. git checkout [branch name] ------switch branch 
 12. git merge [branch name] -----merge branch ---- 
      ex. git merge feature. Fire this cmd from develop or master, then feature branch merge into master||develop
+//-------------------------------------------------------------------------
+ 13.// delete directory from local and git
+    a) git rm -r one-of-the-directories // This deletes from filesystem
+    b)git commit -m "Remove duplicated directory"
+    c)git push origin <your-git-branch> (typically 'master', but not always)
 
+  14. // remove directroy from git but not local
+    a)git rm -r --cached FolderName
+    b)git commit -m "Removed folder from repository"
+    c)git push origin master
 </p>
 </body>
 </html>
