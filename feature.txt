@@ -3,4 +3,4 @@ Example : git stash save "any message"
           git stash list
           git stash apply [stash-name] 
           git stash drop [stash-name]
-          git satsh clean ------ remove all stash from list
+          git stash clear ------ remove all stash from list
