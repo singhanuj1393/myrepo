@@ -1,1 +1,6 @@
-feature
+i want to to add git stash cmd, which is very helpfull.
+Example : git stash save "any message"
+          git stash list
+          git stash apply [stash-name] 
+          git stash drop [stash-name]
+          git satsh clean ------ remove all stash from list
